@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Nurse Practicioner"
+  },
+  {
+    "id": 2,
+    "name": "Senior Editor"
+  },
+  {
+    "id": 3,
+    "name": "Account Representative IV"
+  },
+  {
+    "id": 4,
+    "name": "Design Engineer"
+  },
+  {
+    "id": 5,
+    "name": "Account Coordinator"
+  },
+  {
+    "id": 6,
+    "name": "Nurse Practicioner"
+  },
+  {
+    "id": 7,
+    "name": "Executive Secretary"
+  },
+  {
+    "id": 8,
+    "name": "Database Administrator IV"
+  },
+  {
+    "id": 9,
+    "name": "Environmental Specialist"
+  },
+  {
+    "id": 10,
+    "name": "Mechanical Systems Engineer"
+  },
+  {
+    "id": 11,
+    "name": "Executive Secretary"
+  },
+  {
+    "id": 12,
+    "name": "Analog Circuit Design manager"
+  },
+  {
+    "id": 13,
+    "name": "Design Engineer"
+  },
+  {
+    "id": 14,
+    "name": "VP Sales"
+  },
+  {
+    "id": 15,
+    "name": "Junior Executive"
+  },
+  {
+    "id": 16,
+    "name": "Professor"
+  },
+  {
+    "id": 17,
+    "name": "Assistant Media Planner"
+  },
+  {
+    "id": 18,
+    "name": "Business Systems Development Analyst"
+  },
+  {
+    "id": 19,
+    "name": "Developer III"
+  },
+  {
+    "id": 20,
+    "name": "Sales Associate"
+  },
+  {
+    "id": 21,
+    "name": "GIS Technical Architect"
+  },
+  {
+    "id": 22,
+    "name": "Dental Hygienist"
+  },
+  {
+    "id": 23,
+    "name": "Electrical Engineer"
+  },
+  {
+    "id": 24,
+    "name": "Internal Auditor"
+  },
+  {
+    "id": 25,
+    "name": "Geologist II"
+  },
+  {
+    "id": 26,
+    "name": "Biostatistician I"
+  },
+  {
+    "id": 27,
+    "name": "Web Designer IV"
+  },
+  {
+    "id": 28,
+    "name": "Food Chemist"
+  },
+  {
+    "id": 29,
+    "name": "Electrical Engineer"
+  },
+  {
+    "id": 30,
+    "name": "Recruiting Manager"
+  }
+]

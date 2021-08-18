@@ -1,0 +1,27 @@
+.ReactModal__Body--open {
+  @apply overflow-hidden;
+}
+.modal-overlay {
+  @apply bg-bodyTransparent flex justify-center items-center fixed top-0 left-0 right-0 bottom-0 z-modal transition-all duration-300;
+}
+.modal {
+  @apply animate-scaleUp overflow-y-auto rounded-22 shadow-layout bg-body pb-5  max-h-95vh max-w-4xl min-w-min;
+}
+
+@screen xs {
+  .modal {
+    @apply w-11/12;
+  }
+}
+
+@screen md {
+  .modal {
+    @apply w-450;
+  }
+}
+
+@screen xl {
+  .modal {
+    @apply w-540;
+  }
+}

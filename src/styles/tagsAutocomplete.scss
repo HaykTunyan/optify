@@ -1,0 +1,23 @@
+.react-tags {
+  @apply py-0 m-0 relative flex-1;
+
+  &__search {
+    @apply border-1  border-lightAlpha  placeholder-opacity-75   rounded-15;
+  }
+  &__search-input {
+    @apply h-12 rounded-15  focus:ring-primary focus:ring-2 focus:border-transparent w-full pl-4 placeholder-lightGray;
+  }
+  &__suggestions {
+    @apply absolute w-full left-0 bg-white shadow-layout rounded-15 overflow-hidden top-full mt-1 animate-swingIn duration-150 z-50 py-2;
+  }
+  &__suggestion-item {
+    @apply py-2 px-4;
+    &:hover {
+      @apply bg-primary-light cursor-pointer text-white;
+    }
+  }
+
+  .is-disabled {
+    @apply py-2 px-4 text-warrning;
+  }
+}

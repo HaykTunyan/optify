@@ -1,0 +1,17 @@
+.pagination {
+  @apply flex;
+
+  li {
+    @apply bg-transparent w-8 h-8  flex justify-center items-center  text-sm font-semibold text-primaryGrey transition-all select-none shadow-none;
+    &.active-page {
+      @apply bg-gradient-primary shadow-beta text-white animate-scaleUp rounded-full;
+    }
+  }
+
+  .previous {
+    @apply hidden;
+  }
+  .next {
+    @apply hidden;
+  }
+}

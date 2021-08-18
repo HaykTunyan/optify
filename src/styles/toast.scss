@@ -1,0 +1,41 @@
+.Toastify__toast-container {
+  @apply w-auto z-toast;
+  @screen xs {
+    @apply w-full p-0 top-0;
+  }
+  @screen md {
+    @apply w-auto;
+  }
+  .Toastify__toast {
+    @screen xs {
+      @apply m-0 h-auto;
+    }
+    @screen md {
+      @apply mt-8 h-auto;
+    }
+  }
+
+  .Toastify__toast--warning {
+    @apply bg-white shadow-layout font-sans text-dark w-auto border-l-8 border-yellow-500;
+  }
+  .Toastify__toast-body {
+    @apply p-4;
+    @screen xs {
+      @apply w-11/12;
+    }
+    @screen md {
+      @apply w-auto;
+    }
+  }
+  .Toastify__close-button {
+    @screen xs {
+      @apply w-1/12;
+    }
+    @screen md {
+      @apply w-auto;
+    }
+    & > svg {
+      @apply fill-dark;
+    }
+  }
+}

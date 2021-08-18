@@ -1,0 +1,128 @@
+.react-datepicker {
+  @apply rounded-22 overflow-hidden font-sans bg-white  shadow-layout border-1 border-lightAlpha transform animate-swing;
+  &__header {
+    @apply pt-0 border-0;
+  }
+  &__month-container {
+    @apply pt-0;
+  }
+  &__current-month {
+    @apply text-base font-normal text-dark;
+  }
+  &__day-names {
+    @apply text-tiny font-bold text-dark  tracking-wide bg-white;
+  }
+  &__day-name {
+    @apply w-8;
+  }
+  &__day {
+    &,
+    &--weekend,
+    &--range-start {
+      @apply text-sm font-medium text-dark  w-8 h-8 text-center rounded-full leading-8 transition-all select-none;
+    }
+
+    &:hover {
+      @apply rounded-full bg-primary-dark text-white;
+    }
+    &--selected,
+    &--selected:hover {
+      @apply bg-primary text-white;
+    }
+    &--keyboard-selected {
+      @apply bg-secondary text-white;
+    }
+    &--outside-month {
+      @apply text-lightGray;
+    }
+    &--disabled {
+      @apply text-lightAlpha;
+      &:hover {
+        @apply text-lightAlpha bg-transparent cursor-auto;
+      }
+    }
+    &--in-selecting-range,
+    &--in-range {
+      @apply bg-secondary text-dark;
+    }
+  }
+  // time picker styles
+
+  &__header--time--only {
+    @apply hidden;
+  }
+  &--time-only {
+    @apply static animate-swing;
+  }
+  &__time-container {
+    @apply w-full;
+  }
+  &__time-container &__time &__time-box {
+    @apply w-full;
+  }
+  .react-datepicker__time-container
+    .react-datepicker__time
+    .react-datepicker__time-box
+    ul.react-datepicker__time-list {
+    @apply overflow-x-hidden;
+  }
+  .react-datepicker__time-container
+    .react-datepicker__time
+    .react-datepicker__time-box
+    ul.react-datepicker__time-list
+    li.react-datepicker__time-list-item {
+    @apply py-5 h-0 text-sm leading-0 transition-all transform overflow-x-hidden overflow-y-hidden duration-150 flex justify-center items-center;
+    &:hover {
+      @apply bg-primary-light scale-110 text-base;
+    }
+    &--selected {
+      @apply bg-primary;
+      &:hover {
+        @apply bg-primary;
+      }
+    }
+  }
+  // month picker
+  &__monthPicker {
+    .react-datepicker__month-text {
+      @apply p-2;
+      &:hover {
+        @apply bg-primary-light text-white;
+      }
+    }
+    .react-datepicker__month-text--keyboard-selected,
+    .react-datepicker__month-text--keyboard-selected:hover {
+      @apply bg-primary text-white;
+    }
+  }
+}
+.react-datepicker-wrapper {
+  @apply block;
+}
+.react-datepicker-popper[data-placement^='bottom'] {
+  @apply mt-1;
+}
+
+@screen md {
+  .react-datepicker {
+    &--time-only {
+      @apply w-300;
+    }
+  }
+}
+
+@screen lg {
+  .react-datepicker {
+    &--time-only {
+      @apply w-48;
+    }
+  }
+}
+
+@screen xl {
+  .react-datepicker {
+    &--time-only {
+      @apply w-240;
+    }
+  }
+}

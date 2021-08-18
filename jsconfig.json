@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "baseUrl": "src"
+  },
+  "paths": {
+    "common/*": ["./common/*"],
+    "assets/*": ["./assets/*"],
+    "app/*": ["./app/*"],
+    "store/*": ["./store/*"],
+    "components/*": ["./components/*"],
+    "utils/*": ["./utils/*"],
+    "routes/*": ["./routes/*"],
+    "hooks/*": ["./hooks/*"],
+    "hocs/*": ["./hocs/*"],
+    "style-guide/*": ["./style-guide/*"]
+  },
+  "exclude": ["node_modules", "build", ".vscode"]
+}

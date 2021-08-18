@@ -1,0 +1,30 @@
+.sidebar-nav-h {
+  height: calc(100vh - 300px);
+}
+.hero-left-padding {
+  // make dynamic variables
+  @screen xs {
+    padding: 0 1em;
+  }
+  @screen md {
+    padding-left: calc((100% - 690px) / 2);
+  }
+  @screen lg {
+    padding-left: calc((100% - 930px) / 2);
+  }
+  @screen xl {
+    padding-left: calc((100% - 1100px) / 2);
+  }
+}
+.hero-right-padding {
+  // make dynamic variables
+  @screen md {
+    padding-right: calc((100% - 690px) / 2);
+  }
+  @screen lg {
+    padding-right: calc((100% - 930px) / 2);
+  }
+  @screen xl {
+    padding-right: calc((100% - 1100px) / 2);
+  }
+}

@@ -1,0 +1,26 @@
+main {
+  min-height: calc(90vh - 185px);
+}
+* {
+  box-sizing: border-box;
+  flex-shrink: 0 !important;
+  &,
+  &:focus,
+  &:hover {
+    outline: none !important;
+  }
+}
+
+html,
+body {
+  @apply bg-white;
+}
+textarea:disabled,
+input:disabled,
+button:disabled {
+  @apply opacity-50;
+}
+
+.brd {
+  border: 1px solid red;
+}
